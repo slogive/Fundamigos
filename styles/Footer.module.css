@@ -1,0 +1,14 @@
+.Footer {
+  display: grid;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 10px;
+  background: black;
+  color: orange;
+}
+
+.Text {
+  justify-self: center;
+  text-align: center;
+}

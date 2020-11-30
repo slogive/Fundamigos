@@ -1,0 +1,13 @@
+.Container {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  min-height: 100vh;
+}
+
+.Main {
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  grid-auto-flow: column;
+  gap: 10px;
+}

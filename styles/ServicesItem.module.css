@@ -1,0 +1,32 @@
+.Container {
+  border: solid black 1px;
+  width: 350px;
+  padding: 60px 20px;
+  display: grid;
+  background: rgba(128, 128, 128, 0.05);
+}
+
+.Container img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 20px 0px;
+}
+
+.Title,
+.More {
+  color: orange;
+  font-weight: bold;
+}
+
+.Title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.More {
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+}
